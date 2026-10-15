@@ -1,0 +1,21 @@
+GUARDIANAI — SABSE PEHLE YE PADHO
+
+Is folder mein project ka runnable code aur submission content hai.
+
+1) Windows par Python 3.10+ install hona chahiye.
+2) Is folder ko extract karo.
+3) RUN_GUARDIANAI.bat par double-click karo.
+4) Browser mein dashboard khulega. Pehle "Use Demo Events" se interface check karo.
+5) Ring track ke liye Ring Developer Playground se access token lena hoga. .env file mein RING_ACCESS_TOKEN set karke app restart karo; phir "Load Ring Devices" aur "Load Device Event History" use karo.
+6) Token, .env, AWS credentials kisi ko share mat karna aur GitHub par upload mat karna.
+7) Demo video tab record karna jab Ring API/simulator se actual events app mein load ho rahe hon. Sirf demo events dikhana Ring track ki requirement poori nahi karta.
+8) DEVPOST_DESCRIPTION.md mein jo likha hai use actual tested project ke hisaab se edit karna.
+9) PRODUCT_FEEDBACK_TEMPLATE.md ko real testing ke baad khud complete karna.
+10) Public GitHub repo tumhe apne account se create/upload karna hoga. Main yahan se tumhare account mein login ya publish nahi kar sakta.
+11) Bedrock optional hai. AWS Builder mini-challenge tabhi select karna jab Amazon Bedrock ya koi qualifying AWS service sach mein configure, integrated aur tested ho.
+
+Current limitations:
+- Ring integration code included hai, lekin yahan tumhara Ring token/account available nahi tha, isliye live Ring API call verify nahi ki gayi.
+- Demo mode data simulated hai.
+- Bedrock actual tabhi chalega jab AWS credentials + BEDROCK_MODEL_ID set hon. Nahi to transparent rule-based fallback chalega.
+- Ye caregiver-awareness prototype hai, medical device ya emergency service nahi.
